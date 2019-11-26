@@ -1,0 +1,53 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:getPersonaResponse xmlns:ns2="http://a5.soap.ws.server.puc.sr/">
+         <personaReturn>
+            <datosGenerales>
+               <apellido>FRANCO AGUSTIN</apellido>
+               <domicilioFiscal>
+                  <codPostal>1828</codPostal>
+                  <descripcionProvincia>BUENOS AIRES</descripcionProvincia>
+                  <direccion>ALEM 5982</direccion>
+                  <idProvincia>1</idProvincia>
+                  <localidad>BANFIELD</localidad>
+                  <tipoDomicilio>FISCAL</tipoDomicilio>
+               </domicilioFiscal>
+               <estadoClave>ACTIVO</estadoClave>
+               <idPersona>20224107030</idPersona>
+               <mesCierre>12</mesCierre>
+               <nombre>SEVERINO</nombre>
+               <tipoClave>CUIT</tipoClave>
+               <tipoPersona>FISICA</tipoPersona>
+            </datosGenerales>
+            <datosRegimenGeneral>
+               <actividad>
+                  <descripcionActividad>ALQUILER DE EFECTOS PERSONALES Y ENSERES DOM�STICOS N.C.P.</descripcionActividad>
+                  <idActividad>772099</idActividad>
+                  <nomenclador>883</nomenclador>
+                  <orden>1</orden>
+                  <periodo>201706</periodo>
+               </actividad>
+               <impuesto>
+                  <descripcionImpuesto>GANANCIAS PERSONAS FISICAS</descripcionImpuesto>
+                  <idImpuesto>11</idImpuesto>
+                  <periodo>200512</periodo>
+               </impuesto>
+               <impuesto>
+                  <descripcionImpuesto>IVA</descripcionImpuesto>
+                  <idImpuesto>30</idImpuesto>
+                  <periodo>200705</periodo>
+               </impuesto>
+               <impuesto>
+                  <descripcionImpuesto>APORTES SEG.SOCIAL AUTONOMOS</descripcionImpuesto>
+                  <idImpuesto>308</idImpuesto>
+                  <periodo>200512</periodo>
+               </impuesto>
+            </datosRegimenGeneral>
+            <metadata>
+               <fechaHora>2019-11-25T12:12:08.207-03:00</fechaHora>
+               <servidor>setiwsh1.afip.gov.ar</servidor>
+            </metadata>
+         </personaReturn>
+      </ns2:getPersonaResponse>
+   </soap:Body>
+</soap:Envelope>
